@@ -1,4 +1,32 @@
-@value primaryColor: #0c77f8;
-@value secondaryColor: #1e79f9;
+@value primaryColor: #07A53C;
+@value primaryColorDarker: #00842D;
+@value primaryColorDarkest: #006723;
+@value primaryColorLighter: #28B558;
+@value primaryColorLightest: #4BC374;
+
+@value secondaryColor: #0B6D8D;
+@value secondaryColorDarker: #045671;
+@value secondaryColorDarkest: #024358;
+@value secondaryColorLighter: #277D9A;
+@value secondaryColorLightest: #4591AA;
+
+@value tertiaryColor: #E1780A;
+@value tertiaryColorDarker: #B55D00;
+@value tertiaryColorDarkest: #8C4800;
+@value tertiaryColorLighter: #F79936;
+@value tertiaryColorLightest: #FFB262;
+
+@value fourthColor: #E12B0A;
+@value fourthColorDarker: #B51C00;
+@value fourthColorDarkest: #8C1600;
+@value fourthColorLighter: #F75436;
+@value fourthColorLightest: #FF7A62;
+
 @value fontColor: black;
 @value invertedFontColor: white;
+@value activeColor: orange;
+
+
+/*
+http://paletton.com/palette.php?uid=72W0u0kuDsfjJzJoXu%2BwmmGDMhA
+*/
