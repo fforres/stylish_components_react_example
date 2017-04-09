@@ -1,0 +1,36 @@
+{
+  "presets": [
+    [
+      "latest", {
+        "es2015": {
+          "modules": false
+        }
+      }
+    ],
+    "react"
+  ],
+  "env": {
+    "build": {
+      "presets": [
+        [
+          "latest", {
+            "es2015": {
+              "modules": "commonjs"
+            }
+          }
+        ],
+        "react"
+      ],
+      "plugins": [
+        [
+          "css-modules-transform", {
+            "generateScopedName": "[name]__[local]___[hash:base64:5]",
+            "extensions": [".css"],
+            "extractCss": "./dist/combined.css"
+          }
+        ],
+        "react-hot-loader/babel"
+      ]
+    }
+  }
+}

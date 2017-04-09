@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.App__base___2tndI {
+  width: 10em;
+}
+.index__base___1A2Sr {
+  padding: 1em;
+}
+.index__input___3s_bB {
+  width: 20em;
+  padding: 0.2em;
+  font-size: 1.4em;
+}
+
+.index__inputArea___1UMsV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index__suggestion___1cJL2 {
+  list-style: none;
+}
+
+.index__base___3pBHa {
+  background-color: #0c77f8;
+  color: white;
+  border-color: #1e79f9;
+  list-style: none;
+  display: inline-flex;
+  align-items: baseline;
+  font-size: 1em;
+  padding: 0.5em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+}
+.index__base___3pBHa:hover {
+  cursor: pointer;
+}
+.index__base___aDQuf {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  font-size: 1.5em;
+  padding: 0.6em;
+}
+.index__base___aDQuf:hover {
+  cursor: pointer;
+}
+.index__base___2baDW {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  font-size: 1.5em;
+  padding: 0.6em;
+}
+.index__base___2baDW:hover {
+  cursor: pointer;
+}

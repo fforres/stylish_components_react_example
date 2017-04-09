@@ -1,0 +1,18 @@
+@value colors: "../colors.css";
+@value primaryColor, secondaryColor, invertedFontColor from colors;
+
+.base {
+  background-color: primaryColor;
+  color: invertedFontColor;
+  border-color: secondaryColor;
+  list-style: none;
+  display: inline-flex;
+  align-items: baseline;
+  font-size: 1em;
+  padding: 0.5em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+}
+.base:hover {
+  cursor: pointer;
+}
